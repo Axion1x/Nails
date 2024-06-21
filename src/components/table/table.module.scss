@@ -1,0 +1,16 @@
+.block {
+  border: 3px solid white;
+  padding: 0;
+
+  &:not(:last-child) {
+    border-right: none;
+  }
+}
+
+.itemContainer {
+  padding: 10px 20px;
+
+  &:not(:last-child) {
+    border-bottom: 3px solid white;
+  }
+}

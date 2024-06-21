@@ -17,11 +17,20 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  max-width: 1920px;
+  background-color: #171717 !important;
+  margin: auto;
+}
+.react-tel-input{
+  background-color: blue;
+}
+
+.parallax-content {
+  height: 300px; /* Set the height of each parallax layer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Set the text color */
+  font-size: 24px;
 }
